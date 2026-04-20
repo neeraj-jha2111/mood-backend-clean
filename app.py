@@ -17,8 +17,8 @@ def send_email(mood):
     message = Mail(
         from_email="neeraj2111bla@gmail.com",
         to_emails="neerajnilujha@gmail.com",
-        subject="Mood Update ❤️",
-        plain_text_content=f"She says: {label}"
+        subject="Simu just shared her mood 💌",
+        plain_text_content=f"Hey, Simu just tapped a mood on your app. mood:{label}"
     )
 
     response = sg.send(message)
